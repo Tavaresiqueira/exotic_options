@@ -24,7 +24,7 @@ class EOPricer:
 
         
         
-        # for the trading_days argument
+        
         _days_in_year = 252 
 
         # Assign values to the class

@@ -4,7 +4,7 @@ from setuptools import setup, find_packages
 setup(name='exotic_options',
       version='0.1',
       description='The Formula to calculate some exotic options.',
-      long_description='The Formula to calculate some exotic options.',
+      long_description=open('README.md').read(),
       long_description_content_type='text/markdown',
       url='https://github.com/Tavaresiqueira/exotic_options/',
       download_url = 'https://github.com/Tavaresiqueira/exotic_options/archive/v0.2.tar.gz',
